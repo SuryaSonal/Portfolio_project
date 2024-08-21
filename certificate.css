@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg,black,grey,black);
+}
+.pic{
+    display: inline-flex;
+    padding:20px;
+    margin-top: 40px;
+    margin-left: 100px;
+    
+
+}
+.pic1{
+    display: inline-flex;
+    padding:20px;
+    margin-top: 40px;
+    margin-left: 100px;
+    
+}

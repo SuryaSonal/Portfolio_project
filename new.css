@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+/*.header-left{
+    height: inherit;
+    width: inherit;
+    transition: all 1s;
+}
+.header-left img:hover{
+    transform:;
+}*/
+.hobby1{
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-image: url("https://img.freepik.com/premium-photo/cute-young-woman-reading-book-anime-style-background_176697-4132.jpg");
+    background-size: cover;
+}
+
+.hobby2{
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-image: url("https://i.pinimg.com/originals/3a/11/2e/3a112e67b72418befc72df82608209d7.jpg");
+    background-size: cover;
+}
+
+.hobby3{
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-image: url("https://mashaplans.com/wp-content/uploads/2019/01/138585106_3580888742032009_5167626296866683688_n-735x861.jpg");
+    background-size: cover;
+}
+
+.hobby4{
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-image: url("https://pm1.narvii.com/6539/0898852f3200c463b9722632ad5b8c40a2c594ff_00.jpg");
+    background-size: cover;
+}
+
+.hobby{
+    display: inline-block;
+
+}
+
+.header-left img{
+        height: inherit;
+        width: inherit;
+        border-radius: 30px;
+        transition:all 1s;
+}
+
+img:hover{
+    transform: scale(0.8,0.8);
+}

@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("C:/Users/surya/Desktop/portfolio/bg.avif");
+    background-size: cover;
+    
+}
+header{
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0 0 1px white;
+    font-weight: bolder;
+    color: rgb(15, 132, 132);
+    height: auto;
+    width: 90px;
+    margin-left: 10px;
+}
+span{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0 0 2px rgb(0, 0, 0);
+    color:whitesmoke;
+}
+.container{
+    /*padding: 10px 10%;
+    padding-left: ;*/
+    justify-content:space-between;
+}
+nav{
+
+    display: flex;
+    width: 100%;
+    margin-top: 2px;
+    margin-left: 100px;
+    height: 15vh;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap: wrap;
+    padding-left: 20px;
+
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px 50px;
+    flex: auto;
+    font-size: 20px;
+    color:rgb(15, 132, 132); ;
+}
+nav a:hover{
+    color: aliceblue;
+    font-size:18px ;
+    font-weight: normal;
+}
+.p3 span{
+    color:rgb(15, 132, 132) ;
+    font-size: 40px;
+}
+
+.container1{
+    display: inline-flex;
+}
